@@ -8,6 +8,7 @@
 {
  echo "ID: " . $row["id"]. "<br>";
  echo "Title: $row[title] <br/>";
+ echo "Title: <a href='reply.php?ref= $row[id]'> $row[title] </a><br/>";
  echo "Content: $row[content] <br/>";
  echo "Poster: $row[poster] <br/>";
  echo "Date: $row[dmy] <br/>";
